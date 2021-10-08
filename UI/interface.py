@@ -18,7 +18,7 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
 from PySide6.QtWidgets import (QApplication, QGridLayout, QHBoxLayout, QLabel,
     QPushButton, QScrollArea, QSizePolicy, QVBoxLayout,
     QWidget)
-import res_etinspector_rc
+from UI import res_etinspector_rc
 
 class Ui_Form(object):
     def setupUi(self, Form):
